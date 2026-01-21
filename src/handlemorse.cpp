@@ -40,6 +40,7 @@ void sendKey(char c) {
     else if(c >= '0' && c <= '9') vk = 0x30 + (c - '0'); // 0-9
     else if(c == '\n') vk = VK_RETURN;
     else if(c == ' ') vk = VK_SPACE;
+    else if(c == '\b') vk = VK_BACK; 
     else return;
 
     INPUT input[2] = {};
@@ -86,7 +87,7 @@ void updateMorse(const XINPUT_STATE &state) {
         lastInputTime = now;
     }
     // COnvert to input after 600ms
-    if (!currentMorse.empty() && now - lastInputTime > 600) {
+    if (!currentMorse.empty() && now - lastInputTime > 1000) {
         if(morseTable.find(currentMorse) != morseTable.end()) {
             typedText += morseTable[currentMorse];
             sendKey(morseTable[currentMorse]);
