@@ -1,4 +1,4 @@
-# LazyMouse (A Harvard CS 50 Final Project by Niklas Kost)
+# LazyMouse (A Harvard CS 50 Final Project by Niklas)
 
 #### Description:
 
