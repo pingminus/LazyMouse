@@ -12,12 +12,6 @@
 - **Morse Code Mode**: Toggle between mouse control and Morse code text input via the Y button
 - **Debug Mode**: Real-time display of controller input values for development
 
-## Technologies Used
-
-- **Language**: C++
-- **API**: XInput (Windows)
-- **Libraries**: Windows API, standard C++ libraries
-- **Platform**: Windows
 
 ## How to Build
 
@@ -51,5 +45,4 @@ You can manually adjust the Cursor Speed, Scroll Speed, and Deadzone in the conf
 ## Requirements
 
 - Windows OS
-- Xbox controller connected via USB
-- C++ compiler (Visual Studio recommended)
+- Xbox controller(360, one or series X) connected via USB or Bluetooth
