@@ -14,8 +14,11 @@
 
 
 ## How to Build
+## Requirements
 
-### req. C++17 and g++ compiler
+- Windows OS
+- Xbox controller(360, one or series X) connected via USB or Bluetooth
+- req. C++17 and g++ compiler
 
 ```bash
 ./build.bat
@@ -42,7 +45,4 @@ You can manually adjust the Cursor Speed, Scroll Speed, and Deadzone in the conf
 - **Y Button**: Toggle between mouse mode and Morse code mode
 - **Other Buttons**: Mouse clicks and keyboard interactions (see `interactions.cpp`)
 
-## Requirements
 
-- Windows OS
-- Xbox controller(360, one or series X) connected via USB or Bluetooth
