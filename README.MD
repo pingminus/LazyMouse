@@ -28,10 +28,10 @@
 
 ```bash
 # Normal mode
-./build/main.exe
+./main.exe
 
 # Debug mode (displays controller input values)
-./build/main.exe -debug
+./main.exe -debug
 ```
 
 ## Changes
